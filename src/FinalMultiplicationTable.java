@@ -37,7 +37,7 @@ public class FinalMultiplicationTable{
         int endDan = scanner.nextInt();
 
         // TODO 1: 위의 입력 규칙을 만족하지 않는 경우를 하나의 조건식으로 작성한다.
-        boolean invalid = startDan >= 2 && endDan <= 9;
+        boolean invalid = startDan <= 1 || endDan > 9;
 
         if (invalid) {
             System.out.println("2~9 범위를 순서대로 입력하세요.");
