@@ -29,7 +29,7 @@ import java.util.Scanner;
  * 현재 파일은 컴파일되지만 TODO의 빈 문자열, 0, false는 임시값이다.
  * 한 TODO를 해결할 때마다 직접 실행해서 주문 금액이 맞는지 확인한다.
  */
-public class FinalOrderKiosk_student {
+public class FinalOrderKiosk{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

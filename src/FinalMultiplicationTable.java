@@ -26,7 +26,7 @@ import java.util.Scanner;
  * 현재 파일은 컴파일되지만 TODO에 들어 있는 조건식과 0은 임시값이다.
  * TODO 1부터 순서대로 바꿔야 정상적으로 동작한다.
  */
-public class FinalMultiplicationTable_student {
+public class FinalMultiplicationTable{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -37,7 +37,7 @@ public class FinalMultiplicationTable_student {
         int endDan = scanner.nextInt();
 
         // TODO 1: 위의 입력 규칙을 만족하지 않는 경우를 하나의 조건식으로 작성한다.
-        boolean invalid = endDan < startDan;
+        boolean invalid = startDan >= 2 && endDan <= 9;
 
         if (invalid) {
             System.out.println("2~9 범위를 순서대로 입력하세요.");

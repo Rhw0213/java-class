@@ -23,7 +23,7 @@ import java.util.Scanner;
  * 주의
  * 현재 파일은 컴파일되지만 TODO의 조건식, 0, 0.0은 임시값이다.
  */
-public class FinalStudentScoreStatistics_student {
+public class FinalStudentScoreStatistics {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
